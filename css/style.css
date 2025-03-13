@@ -1,0 +1,32 @@
+body, h1, h2, p, a, video, img {
+    margin: 0;
+    padding; 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Time New Roman', Times, serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+p, a, video, img, h1, h2 {
+    display: block;
+    margin: 0 auto;
+}
+
+a.cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+p, h1, h2 {
+    margin-bottom: 20px;
+}
